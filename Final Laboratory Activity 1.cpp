@@ -79,7 +79,7 @@ int main() {
         if (validInt(start) && validInt(end) && start <= end) {
             sumAve(start, end);
         } else {
-            cout << "Invalid input! Please enter positive numbers only.\n";
+            cout << "Invalid input! Please enter the smaller number first.\n";
         }
     }
     // Handling choice 3: Compute factorial
